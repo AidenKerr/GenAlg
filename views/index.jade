@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  img.image(src="https://www.asianscientist.com/wp-content/uploads/bfi_thumb/BEE-CHANGE-39v33r5evrrdc7rliyaqrk.jpg", width="100px")
+  p Biology 112 Project
+  - var x = 10
+  div #{10-7}
+  button(onClick="start(); return false") Start
+  script.
+    function start() {
+      window.location.href = '/start';
+    }
