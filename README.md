@@ -1,4 +1,7 @@
 # GenAlg
+
+A user interface for this now exists [here!](https://github.com/AidenKerr/genetic-v2)
+
 A genetic algorithm made for a BIOL 111 Project
 
 
